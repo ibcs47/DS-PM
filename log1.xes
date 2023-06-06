@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="register request" />
+			<date key="time:timestamp" value="2010-12-30T10:02:00+00:00" />
+			<int key="cost:total" value="50" />
+			<string key="org:resource" value="Pete" />
+			<int key="@@index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="examine thoroughly" />
+			<date key="time:timestamp" value="2010-12-31T09:06:00+00:00" />
+			<int key="cost:total" value="400" />
+			<string key="org:resource" value="Sue" />
+			<int key="@@index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="check ticket" />
+			<date key="time:timestamp" value="2011-01-05T14:12:00+00:00" />
+			<int key="cost:total" value="100" />
+			<string key="org:resource" value="Mike" />
+			<int key="@@index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="decide" />
+			<date key="time:timestamp" value="2011-01-06T10:18:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Sara" />
+			<int key="@@index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="reject request" />
+			<date key="time:timestamp" value="2011-01-07T13:24:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Pete" />
+			<int key="@@index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="register request" />
+			<date key="time:timestamp" value="2010-12-30T13:32:00+00:00" />
+			<int key="cost:total" value="50" />
+			<string key="org:resource" value="Pete" />
+			<int key="@@index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="examine casually" />
+			<date key="time:timestamp" value="2010-12-30T14:06:00+00:00" />
+			<int key="cost:total" value="400" />
+			<string key="org:resource" value="Mike" />
+			<int key="@@index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="check ticket" />
+			<date key="time:timestamp" value="2010-12-30T15:34:00+00:00" />
+			<int key="cost:total" value="100" />
+			<string key="org:resource" value="Ellen" />
+			<int key="@@index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="decide" />
+			<date key="time:timestamp" value="2011-01-06T08:18:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Sara" />
+			<int key="@@index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="reinitiate request" />
+			<date key="time:timestamp" value="2011-01-06T11:18:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Sara" />
+			<int key="@@index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="examine thoroughly" />
+			<date key="time:timestamp" value="2011-01-06T12:06:00+00:00" />
+			<int key="cost:total" value="400" />
+			<string key="org:resource" value="Sean" />
+			<int key="@@index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="check ticket" />
+			<date key="time:timestamp" value="2011-01-08T10:43:00+00:00" />
+			<int key="cost:total" value="100" />
+			<string key="org:resource" value="Pete" />
+			<int key="@@index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="decide" />
+			<date key="time:timestamp" value="2011-01-09T08:55:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Sara" />
+			<int key="@@index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="pay compensation" />
+			<date key="time:timestamp" value="2011-01-15T09:45:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Ellen" />
+			<int key="@@index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<string key="concept:name" value="register request" />
+			<date key="time:timestamp" value="2011-01-06T14:02:00+00:00" />
+			<int key="cost:total" value="50" />
+			<string key="org:resource" value="Pete" />
+			<int key="@@index" value="37" />
+		</event>
+		<event>
+			<string key="concept:name" value="check ticket" />
+			<date key="time:timestamp" value="2011-01-07T11:06:00+00:00" />
+			<int key="cost:total" value="100" />
+			<string key="org:resource" value="Mike" />
+			<int key="@@index" value="38" />
+		</event>
+		<event>
+			<string key="concept:name" value="examine thoroughly" />
+			<date key="time:timestamp" value="2011-01-08T13:43:00+00:00" />
+			<int key="cost:total" value="400" />
+			<string key="org:resource" value="Sean" />
+			<int key="@@index" value="39" />
+		</event>
+		<event>
+			<string key="concept:name" value="decide" />
+			<date key="time:timestamp" value="2011-01-09T11:02:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Sara" />
+			<int key="@@index" value="40" />
+		</event>
+		<event>
+			<string key="concept:name" value="reject request" />
+			<date key="time:timestamp" value="2011-01-12T14:44:00+00:00" />
+			<int key="cost:total" value="200" />
+			<string key="org:resource" value="Ellen" />
+			<int key="@@index" value="41" />
+		</event>
+	</trace>
+</log>
